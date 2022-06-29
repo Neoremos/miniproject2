@@ -1,0 +1,141 @@
+.serviceCard{
+    padding: 20px 0;
+    height: auto;
+    background-color: #f9fbfb;
+
+}
+
+.serviceCard .items{
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+.serviceCard .img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #1eb2a6;
+    padding: 15px;
+}
+
+.serviceCard img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.serviceCard .text{
+    margin-left: 15px;
+    text-align: center;
+} 
+
+.serviceCard .text h1{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.serviceCard .details .sImg img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.proj-btn i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.serviceCard .sImg{
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+.serviceCard .details .box{
+    display: flex;
+    align-items: center;
+    color:grey;
+}
+
+.serviceCard .details span{
+    color: #1eb2a6;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.serviceCard .price{
+    margin: 30px;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.btn_shadow{
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+
+}
+
+.btn_shadow:hover{
+    background-color: #1eb2a6;
+    color: #fff;
+    transform: translateY(-10px);
+}
+
+.outline-btn{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* @media screen and (max-width:768px){
+    .grid2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:30px;
+        right: 50px;
+      }
+} */
+
+
+
+/*-------------------- MEDIA QUERIES (MEDIUM DEVICES)--------*/
+
+@media screen and (max-width:1024px){
+    .serviceCard .img{
+        display: none;
+    }
+
+    .serviceCard .container .items{
+        width: 100%;
+    }
+  
+
+    .serviceCard .grid2{
+        padding: 20px 0;
+        height: auto;
+        background-color: #ffffff;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);  
+    }
+
+   
+}
+/*-------------------- MEDIA QUERIES (SMALL DEVICES)--------*/
+
+@media screen and (max-width:600px){
+    .serviceCard .grid2{
+        padding: 20px 0;
+        height: auto;
+        background-color: #ffffff;
+        display: grid;
+        grid-template-columns: 1fr;  
+    }
+
+
+    .serviceCard .img{
+        display: none;
+    }
+
+
+   
+}
+

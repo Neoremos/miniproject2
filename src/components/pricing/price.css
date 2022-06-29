@@ -1,0 +1,68 @@
+.price{
+    background-color: #fff;
+}
+
+.price .items{
+    padding:40px;
+    text-align: center;
+
+}
+
+.price h1{
+    font-size: 50px;
+    margin: 20px 0;
+    color: #1eb2a6;
+}
+
+.price h1 span{
+    font-size: 20px;
+    margin-right: 5px;
+    color: #000;
+}
+
+.price ul{
+    color: grey;
+
+}
+/* @media all and (min-width: 768px) and (max-width: 1024px) {
+
+    .price{
+        width: 130%;
+    }
+ }
+
+@media all and (max-width: 480px) { 
+
+    .price{
+        width: 180%;
+    }
+
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .price{
+        width: 180%;
+    }
+ } */
+
+
+ /*-------------------- MEDIA QUERIES (MEDIUM DEVICES)--------*/
+
+@media screen and (max-width:1024px){
+    .price .grid2{
+        display: grid;
+        grid-template-columns: 2fr;
+       }
+}
+/*-------------------- MEDIA QUERIES (SMALL DEVICES)--------*/
+
+@media screen and (max-width:600px){
+   .price .grid2{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+
+   
+}
+
+ 
